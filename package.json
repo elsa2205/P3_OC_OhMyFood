@@ -1,0 +1,27 @@
+{
+  "name": "peguet_elsa_p3_oh_my_food",
+  "version": "1.0.0",
+  "description": "Mon projet 3 OhMyFood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch style.scss style.css",
+    "build": "postcss style.css -u autoprefixer cssnano -o ./build/style.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elsa2205/P3_Elsa_Peguet_062022.git"
+  },
+  "author": "Elsa Peguet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elsa2205/P3_Elsa_Peguet_062022/issues"
+  },
+  "homepage": "https://github.com/elsa2205/P3_Elsa_Peguet_062022#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "cssnano": "^5.1.12",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^9.1.0",
+    "sass": "^1.52.3"
+  }
+}
